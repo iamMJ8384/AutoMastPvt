@@ -30,7 +30,7 @@ jobs:
        - name: cloning repo
          continue-on-error: true
          run: |
-           git clone https://iamMJ8384:${{ secrets.GH_TOKEN }}@github.com/iamMJ8384/AutoMastPvt.git mast
+           git clone https://iamMJ8384:${{ secrets.GH_TOKEN }}@github.com/iamMJ8384/helios-mirror-bot.git mast
        - name: Running Mast Bot 
          timeout-minutes: 320
          continue-on-error: true
